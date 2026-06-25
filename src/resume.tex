@@ -34,59 +34,43 @@
 \fontdir[fonts/]
 
 % Color for highlights
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
 \colorlet{awesome}{awesome-skyblue}
-% Uncomment if you would like to specify your own color
-% \definecolor{awesome}{HTML}{CA63A8}
 
 % Colors for text
-% Uncomment if you would like to specify your own color
-% \definecolor{darktext}{HTML}{414141}
-% \definecolor{text}{HTML}{333333}
-% \definecolor{graytext}{HTML}{5D5D5D}
-% \definecolor{lighttext}{HTML}{999999}
-% \definecolor{futurepurple}{HTML}{8a00c2}
 \definecolor{futurepurple}{HTML}{ba68c8}
-% \definecolor{futuregreen}{HTML}{66bb6a}
 
-% Set false if you don't want to highlight section with awesome color
+% Disable section color highlight
 \setbool{acvSectionColorHighlight}{false}
 
-% If you would like to change the social information separator from a pipe (|) to something else
+% Change social info separator
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
 %-------------------------------------------------------------------------------
 %  PERSONAL INFORMATION
-%  Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-% \photo[rectangle,edge,right]{./examples/profile}
-\name{Dr Pezhman}{Zarabadi}
-\position{Chief Data Engineer}
-\email{pezhman.zarabadipoor@fortescue.com}
-\linkedin{pezh-zarabadi}
-\github{ezpzbz}
-% \homepage{https://ezpzbz.github.io/automated-resume-build/resume.pdf}
-\location{Oxford, UK}
+\name{Surya Teja}{Katragadda}
+\position{Senior Data Engineer}
+\email{surya.katragadda761@gmail.com}
+\mobile{+44 7393 842326}
+\linkedin{surya-katragadda761}
+\github{suryatejakatragadda}
+\location{Aylesbury, UK}
+
 %-------------------------------------------------------------------------------
 
 \begin{document}
 
 % Print the header with above personal information
-% Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader[C]
 
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
+% Print the footer with 3 arguments (<left>, <center>, <right>)
 \makecvfooter
 {\today}
-{Up-to-date version at \upshape\color{text}\url{https://ezpzbz.github.io/automated-cv/resume.pdf}}
+{Up-to-date version at \upshape\color{text}\url{https://suryatejakatragadda.github.io/automated-cv/resume.pdf}}
 {\thepage}
 
 %-------------------------------------------------------------------------------
 %  CV/RESUME CONTENT
-%  Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \input{sections/summary.tex}
 \input{sections/experience-cde.tex}
